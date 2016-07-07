@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Zook</string>
+    <string name="openDrawer">Open</string>
+    <string name="closeDrawer">Close</string>
+    <string name="ProfileActivity">Your Account</string>
+    <string name="BookRideActivity">Confirm your booking </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="PlaceDetail">
+        <![CDATA[
+        <b>%1$s</b>
+        <br/>
+        <i>Place Id: %2$s</i>
+        <br/>
+        Address: %3$s
+        <br/>
+        Phone: %4$s
+        <br/>
+        Website: %5$s
+        ]]>
+    </string>
+    <string name="Register">Register</string>
+    <string name="LogIn">LogIn</string>
+    <string name="RegisterActivity">Create your Zook Account</string>
+    <string name="LogInActivity">LogIn to your Zook Account</string>
+</resources>

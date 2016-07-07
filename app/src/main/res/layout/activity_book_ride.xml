@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="zook.indiamoves.in.zook.activities.BookRideActivity">
+
+    <!-- The tool bar-->
+    <android.support.v7.widget.Toolbar
+
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary"
+        xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            >
+
+            <Button
+                android:id="@+id/btn_book_now"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Book Now"
+                android:background="#ffffff"
+                android:textColor="@color/colorPrimary"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"/>
+            <Button
+                android:id="@+id/btn_quickride"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quick Ride"
+                android:background="#ffffff"
+                android:textColor="@color/colorPrimary"
+                android:layout_weight="1"        />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <fragment
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/marked_map"
+        android:layout_below="@id/toolbar"
+        android:layout_above="@+id/footer"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        />
+
+</RelativeLayout>
